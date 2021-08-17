@@ -1,0 +1,145 @@
+body {
+	background: #eee;
+}
+#frm{
+	border:solid gray 1px;
+	width:auto;
+	border-radius:1px;
+	margin:auto;
+	background:white;
+	padding:50px;
+}
+a:active,a:hover{       /*mouse over link and active tab*/
+	color:black;
+	text-decoration:underline;
+	background-color:#5b65f7;
+}
+#title{
+	font-size:30px;
+	font-family:showcard gothic,script mj,sans-serif;
+	text-align:center;
+}
+
+#welcome-pic{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:50%;
+	width:300px;
+	height:300px;
+	align:center;
+}
+
+.vid-center{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin:0 auto;
+	width:500px;
+}
+
+h1{
+	color:#5b65f7;
+	font-family:Open Sans,sans-serif;
+	font-size:65px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	line-height:1;
+	text-align:center;
+}
+h2{
+	color:#f90b6d;
+	font-size:24px;
+	font-family:Open Sans,sans-serif;
+	font-weight:300;
+	line-height:32px;
+	margin:0 0 14px;
+}
+h3{
+	text-align:center;
+	font-family:sans-serif;
+	font-size:30px;
+}
+/*css code for the iframe class google map link copied from "https://blog.duda.co/responsive-google-maps-for-your-website"*/
+.map-responsive{
+	overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+/*css code for the iframe class google map link copied from "https://blog.duda.co/responsive-google-maps-for-your-website"*/
+.map-responsive iframe{
+	left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+p{
+	color:#222;
+	font-size:15px;
+	font-family:Open Sans,sans-serif;
+	font-weight:400;
+	line-height:24px;
+	margin:0 0 14px;
+}
+a:link,a:active,a:hover{ /*mouse over links and active links styles */
+	text-decoration:none;
+	background-color:white lightgreen;
+	color:black;
+	border:2px solid green;
+	padding:10px 20px;
+	text-align:center;
+	display:inline-block;
+}
+#tabs{
+	text-align:center;
+	font-family:sans-serif;
+	font-size:24;
+}
+#drop-down-tab{
+	text-decoration:none;
+	background-color:white lightgreen;
+	color:purple;
+	border:2px solid purple;
+	padding:10px 20px;
+	text-align:center;
+	display:inline-block;	
+	font-family:sans-serif;
+	font-size:26;
+}
+#content{
+	border:white 1px;
+	width:auto;
+	border-radius:1px;
+	margin:auto;
+	background:white;
+	padding:50px ;
+}
+.feed{
+	text-align:center;
+}
+
+footer{
+	border:solid gray 1px;
+	width:100% auto;
+	border-radius:1px;
+	margin:10px auto;
+	background:#040518;
+	padding:auto;
+	color:white;
+	font-size:20px;
+	font-family:script mj;
+}
+.footer-widget{
+	font-size:18px;
+}
+/* footer live feed*/
+.feed img{
+	padding:auto;
+	border-radius:3px;
+	width:50px;
+	height:50px;
+}
